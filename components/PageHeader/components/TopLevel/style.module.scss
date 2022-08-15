@@ -1,0 +1,25 @@
+@import 'styles/mixins';
+
+.top_header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include respond-to(md) {
+        width: 1320px;
+    }
+}
+
+.logo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.title_block {
+
+}
+
+.contacts {
+
+}

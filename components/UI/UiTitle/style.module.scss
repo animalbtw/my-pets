@@ -1,0 +1,33 @@
+@import "styles/mixins";
+@import "styles/colors";
+
+.nmTitle {
+  &_h1 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: $black-100;
+    @include respond-to(md) {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    @include respond-to(xl) {
+      font-size: 36px;
+      line-height: 44px;
+    }
+  }
+  &_h2 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: $black-80;
+    @include respond-to(md) {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    @include respond-to(xl) {
+      font-size: 28px;
+      line-height: 34px;
+    }
+  }
+}
